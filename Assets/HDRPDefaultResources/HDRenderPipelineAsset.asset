@@ -37,7 +37,7 @@ MonoBehaviour:
     supportWaterExclusion: 1
     supportWaterHorizontalDeformation: 0
     supportWaterDecals: 1
-    waterDecalAtlasSize: 1024
+    waterDecalAtlasSize: 2048
     maximumWaterDecalCount: 48
     waterScriptInteractionsMode: 0
     waterFullCPUSimulation: 0
@@ -116,7 +116,7 @@ MonoBehaviour:
       maxDecalsOnScreen: 512
       maxLightsPerClusterCell: 8
       maxLocalVolumetricFogSize: 0
-      maxLocalVolumetricFogOnScreen: 256
+      maxLocalVolumetricFogOnScreen: 1024
     hdShadowInitParams:
       maxShadowRequests: 128
       directionalShadowsDepthBits: 32
@@ -153,7 +153,7 @@ MonoBehaviour:
       maxScreenSpaceShadowSlots: 4
       screenSpaceShadowBufferFormat: 48
     decalSettings:
-      drawDistance: 1000
+      drawDistance: 100000
       atlasWidth: 4096
       atlasHeight: 4096
       transparentTextureResolution:
